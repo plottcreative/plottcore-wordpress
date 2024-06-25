@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/plottcreative/plottcore-wordpress-no-content.git",
-                "reference": "a51b39e44b38b86d5b794e111c39d67e1f916467"
+                "reference": "bbd10da44e7b35bce55ea43aaae5153882b2f8f3"
             },
             "dist": {
                 "type": "zip",
@@ -22,7 +22,7 @@
                 "php": ">= 7.0.0"
             },
             "provide": {
-                "wordpress/core-implementation": "^5.0.0"
+                "wordpress/core-implementation": "^6.5.0"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -74,7 +74,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2024-06-11T09:48:35+00:00"
+            "time": "2024-06-25T09:51:02+00:00"
         },
         {
             "name": "plott/plottcore-wp-installer",
