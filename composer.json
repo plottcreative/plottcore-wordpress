@@ -15,10 +15,5 @@
     "require": {
       "plott/plottcore-wp-installer": "^1.0.0",
       "plott/plottcore-wordpress-no-content": "self.version"
-    },
-    "config": {
-        "allow-plugins": {
-            "plott/plottcore-wp-installer": true
-        }
     }
-}
+  }
