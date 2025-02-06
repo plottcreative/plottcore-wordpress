@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9e8b4b9b0792358af4d0977102a19ae8",
+    "content-hash": "ddeab25f143bb6c1e68aaee8c9adda27",
     "packages": [
         {
             "name": "plott/plottcore-wordpress-no-content",
-            "version": "dev-main",
+            "version": "6.6.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/plottcreative/plottcore-wordpress-no-content.git",
-                "reference": "5fd88115f74eb50caf810bd24958baec8a9e69bf"
+                "reference": "0945497dc18b75396c5fb0e161ba1237f503b48d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://en-gb.wordpress.org/latest-en_GB.zip"
+                "url": "https://wordpress.org/nightly-builds/wordpress-latest.zip"
             },
             "require": {
                 "php": ">= 7.0.0"
             },
             "provide": {
-                "wordpress/core-implementation": "^6.6.1"
+                "wordpress/core-implementation": "dev-nightly"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -40,7 +40,6 @@
                 "ext-xml": "Used for XML parsing, such as from a third-party site.",
                 "ext-zip": "Used for decompressing Plugins, Themes, and WordPress update packages."
             },
-            "default-branch": true,
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -74,7 +73,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2024-07-31T09:40:53+00:00"
+            "time": "2024-08-08T09:56:24+00:00"
         },
         {
             "name": "plott/plottcore-wp-installer",
@@ -128,12 +127,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "plott/plottcore-wordpress-no-content": 20
-    },
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
