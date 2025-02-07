@@ -22,7 +22,7 @@
 		"@wordpress/stylelint-config": "^21.30.0",
 		"autoprefixer": "^10.4.19",
 		"chokidar-cli": "^3.0.0",
-		"eslint": "^8.55.0",
+		"eslint": "^9.0.0",
 		"minimist": "^1.2.8",
 		"npm-run-all2": "^5.0.0",
 		"postcss": "^8.4.38",
