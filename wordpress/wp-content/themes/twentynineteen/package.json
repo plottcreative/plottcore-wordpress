@@ -15,7 +15,7 @@
     "autoprefixer": "^10.4.19",
     "chokidar-cli": "^3.0.0",
     "node-sass": "^9.0.0",
-    "npm-run-all2": "^5.0.0",
+    "npm-run-all2": "^7.0.0",
     "postcss": "^8.4.38",
     "postcss-cli": "^11.0.0",
     "postcss-focus-within": "^8.0.1",
