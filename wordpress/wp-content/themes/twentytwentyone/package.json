@@ -34,7 +34,7 @@
 		"postcss-discard-empty": "^7.0.0",
 		"postcss-focus-within": "^9.0.0",
 		"postcss-merge-rules": "^7.0.2",
-		"postcss-nested": "^6.0.0",
+		"postcss-nested": "^7.0.0",
 		"rtlcss": "^4.0.0",
 		"sass": "^1.77.6",
 		"stylelint": "^14.16.1",
