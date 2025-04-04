@@ -1,24 +1,25 @@
 {
-    "name": "plott/plottcore-wordpress",
-    "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
-    "homepage": "https://wordpress.org/",
-    "keywords": [
-      "blog",
-      "cms",
-      "wordpress"
-    ],
-    "type": "metapackage",
-    "license": [
-      "MIT",
-      "GPL-2.0-or-later"
-    ],
-    "require": {
-      "plott/plottcore-wp-installer": "^1.0.0",
-      "plott/plottcore-wordpress-no-content": "*"
-    },
-    "config": {
-        "allow-plugins": {
-            "plott/plottcore-wp-installer": true
-        }
+  "name": "plott/plottcore-wordpress",
+  "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
+  "homepage": "https://wordpress.org/",
+  "keywords": [
+    "blog",
+    "cms",
+    "wordpress"
+  ],
+  "type": "metapackage",
+  "license": [
+    "MIT",
+    "GPL-2.0-or-later"
+  ],
+  "require": {
+    "plott/plottcore-wp-installer": "^1.0.0",
+    "plott/plottcore-wordpress-no-content": "*"
+  },
+  "config": {
+    "allow-plugins": {
+      "plott/plottcore-wp-installer": true
     }
+  },
+  "version": "6.13.0"
 }
