@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b4f4f52376855ab082319a3819a3c6e",
+    "content-hash": "f58106a1924926e7fea579db9fb2483a",
     "packages": [
         {
             "name": "plott/plottcore-wordpress-no-content",
