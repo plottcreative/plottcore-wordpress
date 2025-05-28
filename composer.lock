@@ -78,16 +78,16 @@
         },
         {
             "name": "plott/plottcore-wp-installer",
-            "version": "1.32.0",
+            "version": "1.33.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/plottcreative/plottcore-wp-installer.git",
-                "reference": "559b3d4e1ff64376966a1595aee7b45d8c0de702"
+                "reference": "e8312670f6e389e7a4bdd2411fc65b7c9385e88c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/plottcreative/plottcore-wp-installer/zipball/559b3d4e1ff64376966a1595aee7b45d8c0de702",
-                "reference": "559b3d4e1ff64376966a1595aee7b45d8c0de702",
+                "url": "https://api.github.com/repos/plottcreative/plottcore-wp-installer/zipball/e8312670f6e389e7a4bdd2411fc65b7c9385e88c",
+                "reference": "e8312670f6e389e7a4bdd2411fc65b7c9385e88c",
                 "shasum": ""
             },
             "require": {
@@ -120,9 +120,9 @@
             "description": "A custom installer to handle deploying WordPress with Composer",
             "support": {
                 "issues": "https://github.com/plottcreative/plottcore-wp-installer/issues",
-                "source": "https://github.com/plottcreative/plottcore-wp-installer/tree/v1.32.0"
+                "source": "https://github.com/plottcreative/plottcore-wp-installer/tree/v1.33.0"
             },
-            "time": "2025-05-28T08:05:34+00:00"
+            "time": "2025-05-28T08:06:26+00:00"
         }
     ],
     "packages-dev": [],
