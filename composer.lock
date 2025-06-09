@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b667fa22fae1dad14ef2309f0ff4c985",
+    "content-hash": "c9eb2c3db89f63fe808d69ea08f98302",
     "packages": [
         {
             "name": "plott/plottcore-wordpress-no-content",
-            "version": "6.26.0",
+            "version": "6.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/plottcreative/plottcore-wordpress-no-content.git",
-                "reference": "05a2d8e14975ba9dbef5e0ce4693e4ebb529011f"
+                "reference": "afaa6ae862a455d505092648369e19ee3fddb1a7"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://wordpress.org/latest.zip",
-                "reference": "05a2d8e14975ba9dbef5e0ce4693e4ebb529011f"
+                "reference": "afaa6ae862a455d505092648369e19ee3fddb1a7"
             },
             "require": {
                 "php": ">=8.1.0"
@@ -74,7 +74,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2025-05-28T08:06:14+00:00"
+            "time": "2025-06-09T08:05:17+00:00"
         },
         {
             "name": "plott/plottcore-wp-installer",
