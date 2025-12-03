@@ -1,0 +1,35 @@
+{
+  "name": "plott/plottcore-wp-installer",
+  "description": "A custom installer to handle deploying WordPress with Composer",
+  "type": "composer-plugin",
+  "license": "GPL-2.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "Plott\\Composer\\": "src/"
+    }
+  },
+  "extra": {
+    "class": "Plott\\Composer\\WordPressCorePlugin"
+  },
+  "require": {
+    "composer-plugin-api": "^1.0 || ^2.0",
+    "php": ">=5.6.0"
+  },
+  "require-dev": {
+    "composer/composer": "^1.0 || ^2.0",
+    "phpunit/phpunit": ">=5.7.27"
+  },
+  "conflict": {
+    "composer/installers": "<1.0.6"
+  },
+  "replace": {
+    "johnpbloch/wordpress-core-installer": "*"
+  },
+  "scripts": {
+    "test:phpunit": "phpunit",
+    "test": [
+      "@test:phpunit"
+    ]
+  },
+  "version": "1.40.0"
+}
