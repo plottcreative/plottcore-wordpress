@@ -1,0 +1,130 @@
+{
+    "packages": [
+        {
+            "name": "plott/plottcore-wordpress-no-content",
+            "version": "6.9.0",
+            "version_normalized": "6.9.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/plottcreative/plottcore-wordpress-no-content.git",
+                "reference": "abcd169a10dcb05d6c5fa5d05eb116cd2393b22d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://wordpress.org/latest.zip",
+                "reference": "abcd169a10dcb05d6c5fa5d05eb116cd2393b22d"
+            },
+            "require": {
+                "php": ">=8.1.0"
+            },
+            "provide": {
+                "wordpress/core-implementation": "*"
+            },
+            "suggest": {
+                "ext-curl": "Performs remote request operations.",
+                "ext-dom": "Used to validate Text Widget content and to automatically configuring IIS7+.",
+                "ext-exif": "Works with metadata stored in images.",
+                "ext-fileinfo": "Used to detect mimetype of file uploads.",
+                "ext-hash": "Used for hashing, including passwords and update packages.",
+                "ext-imagick": "Provides better image quality for media uploads.",
+                "ext-json": "Used for communications with other servers.",
+                "ext-libsodium": "Validates Signatures and provides securely random bytes.",
+                "ext-mbstring": "Used to properly handle UTF8 text.",
+                "ext-mysqli": "Connects to MySQL for database interactions.",
+                "ext-openssl": "Permits SSL-based connections to other hosts.",
+                "ext-pcre": "Increases performance of pattern matching in code searches.",
+                "ext-xml": "Used for XML parsing, such as from a third-party site.",
+                "ext-zip": "Used for decompressing Plugins, Themes, and WordPress update packages."
+            },
+            "time": "2025-04-04T09:36:13+00:00",
+            "type": "wordpress-core",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "https://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
+            "homepage": "https://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
+            "support": {
+                "docs": "https://developer.wordpress.org/",
+                "forum": "https://wordpress.org/support/",
+                "irc": "irc://irc.freenode.net/wordpress",
+                "issues": "https://core.trac.wordpress.org/",
+                "rss": "https://wordpress.org/news/feed/",
+                "source": "https://core.trac.wordpress.org/browser",
+                "wiki": "https://codex.wordpress.org/"
+            },
+            "funding": [
+                {
+                    "url": "https://wordpressfoundation.org/donate/",
+                    "type": "other"
+                }
+            ],
+            "install-path": "../../wordpress"
+        },
+        {
+            "name": "plott/plottcore-wp-installer",
+            "version": "1.40.0",
+            "version_normalized": "1.40.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/plottcreative/plottcore-wp-installer.git",
+                "reference": "8b0986f258f79678d84d8f8ee3713acaef2c20e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/plottcreative/plottcore-wp-installer/zipball/8b0986f258f79678d84d8f8ee3713acaef2c20e9",
+                "reference": "8b0986f258f79678d84d8f8ee3713acaef2c20e9",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": ">=5.6.0"
+            },
+            "conflict": {
+                "composer/installers": "<1.0.6"
+            },
+            "replace": {
+                "johnpbloch/wordpress-core-installer": "*"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0 || ^2.0",
+                "phpunit/phpunit": ">=5.7.27"
+            },
+            "time": "2025-08-29T09:10:43+00:00",
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Plott\\Composer\\WordPressCorePlugin"
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Plott\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "A custom installer to handle deploying WordPress with Composer",
+            "support": {
+                "issues": "https://github.com/plottcreative/plottcore-wp-installer/issues",
+                "source": "https://github.com/plottcreative/plottcore-wp-installer/tree/v1.40.0"
+            },
+            "install-path": "../plott/plottcore-wp-installer"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
