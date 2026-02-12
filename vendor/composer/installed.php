@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'plott/plottcore-wordpress',
-        'pretty_version' => '6.9',
-        'version' => '6.9.0.0',
+        'pretty_version' => '6.9.1',
+        'version' => '6.9.1.0',
         'reference' => null,
         'type' => 'metapackage',
         'install_path' => __DIR__ . '/../../',
@@ -17,8 +17,8 @@
             ),
         ),
         'plott/plottcore-wordpress' => array(
-            'pretty_version' => '6.9',
-            'version' => '6.9.0.0',
+            'pretty_version' => '6.9.1',
+            'version' => '6.9.1.0',
             'reference' => null,
             'type' => 'metapackage',
             'install_path' => __DIR__ . '/../../',
@@ -26,11 +26,11 @@
             'dev_requirement' => false,
         ),
         'plott/plottcore-wordpress-no-content' => array(
-            'pretty_version' => '6.33.0',
-            'version' => '6.33.0.0',
-            'reference' => 'f6ef2911c13f40f6948a2dd199f338d4a3f24170',
+            'pretty_version' => '6.9.1',
+            'version' => '6.9.1.0',
+            'reference' => '14d1609cce48fcfd753fbe6fea20e4cffa581986',
             'type' => 'wordpress-core',
-            'install_path' => __DIR__ . '/../plott/plottcore-wordpress-no-content',
+            'install_path' => __DIR__ . '/../../wordpress',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

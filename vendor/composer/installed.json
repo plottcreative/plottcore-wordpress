@@ -2,17 +2,17 @@
     "packages": [
         {
             "name": "plott/plottcore-wordpress-no-content",
-            "version": "6.33.0",
-            "version_normalized": "6.33.0.0",
+            "version": "6.9.1",
+            "version_normalized": "6.9.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/plottcreative/plottcore-wordpress-no-content.git",
-                "reference": "f6ef2911c13f40f6948a2dd199f338d4a3f24170"
+                "reference": "14d1609cce48fcfd753fbe6fea20e4cffa581986"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://wordpress.org/latest.zip",
-                "reference": "f6ef2911c13f40f6948a2dd199f338d4a3f24170"
+                "reference": "14d1609cce48fcfd753fbe6fea20e4cffa581986"
             },
             "require": {
                 "php": ">=8.1.0"
@@ -36,7 +36,7 @@
                 "ext-xml": "Used for XML parsing, such as from a third-party site.",
                 "ext-zip": "Used for decompressing Plugins, Themes, and WordPress update packages."
             },
-            "time": "2025-08-29T09:10:28+00:00",
+            "time": "2026-02-12T10:59:38+00:00",
             "type": "wordpress-core",
             "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
@@ -71,7 +71,7 @@
                     "type": "other"
                 }
             ],
-            "install-path": "../plott/plottcore-wordpress-no-content"
+            "install-path": "../../wordpress"
         },
         {
             "name": "plott/plottcore-wp-installer",
