@@ -14,7 +14,7 @@
   ],
   "require": {
     "plott/plottcore-wp-installer": "^1.0.0",
-    "plott/plottcore-wordpress-no-content": "6.9.1"
+    "plott/plottcore-wordpress-no-content": "6.33.0"
   },
   "config": {
     "allow-plugins": {
