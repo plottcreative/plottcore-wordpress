@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Validate Package
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          tools: composer:v2
+
+      - name: Validate composer.json
+        run: composer validate --strict
+
+      - name: Check WordPress version is current
+        run: |
+          PACKAGE_VERSION=$(php -r "echo json_decode(file_get_contents('composer.json'))->version;")
+          LATEST_WP=$(curl -s https://api.wordpress.org/core/version-check/1.7/ | php -r "echo json_decode(file_get_contents('php://stdin'))->offers[0]->version;")
+          echo "Package version: $PACKAGE_VERSION"
+          echo "Latest WordPress: $LATEST_WP"
+          if [ "$PACKAGE_VERSION" != "$LATEST_WP" ]; then
+            echo "::warning::Package version ($PACKAGE_VERSION) does not match latest WordPress ($LATEST_WP)"
+          else
+            echo "✓ Version matches latest WordPress release"
+          fi
