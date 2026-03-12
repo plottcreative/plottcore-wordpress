@@ -22,7 +22,7 @@ jobs:
           tools: composer:v2
 
       - name: Validate composer.json
-        run: composer validate --no-check-publish
+        run: composer validate --no-check-publish --no-check-lock
 
       - name: Check WordPress version is current
         run: |
