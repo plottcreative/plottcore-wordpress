@@ -14,12 +14,12 @@
     ],
     "require": {
         "plott/plottcore-wp-installer": "^1.0.0",
-        "plott/plottcore-wordpress-no-content": "6.9.4"
+        "plott/plottcore-wordpress-no-content": "7.0"
     },
     "config": {
         "allow-plugins": {
             "plott/plottcore-wp-installer": true
         }
     },
-    "version": "6.9.4"
+    "version": "7.0"
 }
