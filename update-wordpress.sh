@@ -65,6 +65,7 @@ git pull origin main
 php -r "
     \$json = json_decode(file_get_contents('composer.json'), true);
     \$json['version'] = '$NEW_VERSION';
+    \$json['dist']['url'] = 'https://wordpress.org/wordpress-' . '$NEW_VERSION' . '-no-content.zip';
     file_put_contents('composer.json', json_encode(\$json, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . \"\n\");
 "
 
